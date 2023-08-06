@@ -1,0 +1,25 @@
+static uint32_t virtio_net_bad_features(VirtIODevice *vdev)
+
+{
+
+    uint32_t features = 0;
+
+
+
+    
+
+    features |= (1 << VIRTIO_NET_F_MAC);
+
+    features |= (1 << VIRTIO_NET_F_CSUM);
+
+    features |= (1 << VIRTIO_NET_F_HOST_TSO4);
+
+    features |= (1 << VIRTIO_NET_F_HOST_TSO6);
+
+    features |= (1 << VIRTIO_NET_F_HOST_ECN);
+
+
+
+    return features;
+
+}
