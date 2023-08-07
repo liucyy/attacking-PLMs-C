@@ -1,4 +1,4 @@
-# attacking-PLMs-C
+# Attacking pre-trained language models of code
 Our approach contains contains two parts: (1) probing tasks; (2) MindAC.
 
 # requirements
