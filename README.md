@@ -2,13 +2,20 @@
 Our approach contains contains two parts: (1) probing tasks; (2) MindAC.
 
 # requirements
-python                    3.8.13 \n
+python                    3.8.13
+
 numpy                     1.21.2
+
 pandas                    1.3.4
+
 torch                     2.0.0+cu118
+
 tqdm                      4.63.0
+
 scikit-learn              1.0.1
+
 transformers              4.20.1
+
 TXL                       v10.8 (7.5.20) 
 
 # datasets
