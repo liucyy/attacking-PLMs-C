@@ -2,7 +2,7 @@
 Our approach contains contains two parts: (1) probing tasks; (2) MindAC.
 
 # requirements
-python                    3.8.13
+python                    3.8.13 \n
 numpy                     1.21.2
 pandas                    1.3.4
 torch                     2.0.0+cu118
